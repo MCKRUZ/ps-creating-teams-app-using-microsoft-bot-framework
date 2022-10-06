@@ -1,0 +1,43 @@
+{
+	"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+	"manifestVersion": "1.7",
+	"version": "1.0.0",
+	"id": "",
+	"packageName": "com.microsoft.teams.giphyPS",
+	"developer": {
+		"name": "",
+		"websiteUrl": "https://support.giphy.com",
+		"privacyUrl": "https://support.giphy.com/hc/en-us/articles/360032872931-GIPHY-Privacy-Policy",
+		"termsOfUseUrl": "https://support.giphy.com/hc/en-us/articles/360020027752-GIPHY-User-Terms-of-Service"
+	},
+	"icons": {
+		"color": "color.png",
+		"outline": "outline.png"
+	},
+	"name": {
+		"short": "Giphy Pluralsight",
+		"full": ""
+	},
+	"description": {
+		"short": "Giphy for Microsof Teams",
+		"full": "Giphy for Microsof Teams"
+	},
+	"accentColor": "#FFFFFF",
+	"bots": [
+		{
+			"botId": "",
+			"scopes": [
+				"personal",
+				"team",
+				"groupchat"
+			],
+			"supportsFiles": false,
+			"isNotificationOnly": false
+		}
+	],
+	"permissions": [
+		"identity",
+		"messageTeamMembers"
+	],
+	"validDomains": []
+}

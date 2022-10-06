@@ -1,0 +1,23 @@
+﻿@page 
+@{
+	Layout = "_Layout";
+}
+
+<script>
+	microsoftTeams.initialize()
+</script>
+
+<section>
+	<h2>Search Giphy</h2>
+	<input type="search" id="search" placeholder="Search.." />
+	<input type="button" value="Click" id="searchButton" />
+	<br />
+	<br />
+	<div id="grid"></div>
+</section>
+
+@section scripts {
+	<script src="~/js/index.js" asp-append-version="true"></script>
+	<script src="~/js/grid.js" asp-append-version="true"></script>
+
+}
